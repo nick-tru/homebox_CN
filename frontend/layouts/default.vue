@@ -39,7 +39,7 @@
         <div class="w-60 py-5 md:py-10 bg-base-200 flex flex-grow-1 flex-col">
           <div class="space-y-8">
             <div class="flex flex-col items-center gap-4">
-              <p>Welcome, {{ username }}</p>
+              <p>欢迎, {{ username }}</p>
               <NuxtLink class="avatar placeholder" to="/home">
                 <div class="bg-base-300 text-neutral-content rounded-full w-24 p-4">
                   <AppLogo />
